@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- En-tête de la page -->
+        <meta charset="utf-8" />
+        <title>Les objets</title>
+		<link rel="stylesheet" type="text/css" href="css/objets.css">
+	</head>
+
+    <body>
+        <!-- Corps de la page -->		
+		<p id="txtObjetPrincipal">Objet spatial principal</p>
+		<select id="lstObjetPrincipal"></select>
+		<br>
+		<p id="txtObjetSecondaire">Objet spatial secondaire</p>
+		<select id="lstObjetSecondaire"></select>
+		<br>
+
+		<p> <label for="message">Période orbitale</label> <textarea id="periodeOrbitale"></textarea> </p>
+		<p> <label for="message">Distance orbitale</label> <textarea id="distanceOrbitale"></textarea> </p>
+		<p> <label for="message">Vitesse orbitale</label> <textarea id="vitesseOrbitale"></textarea> </p>
+
+		<script src="scripts/createObjets.js" type="text/javascript"></script>
+		<script src="scripts/initObjets.js" type="text/javascript"></script>
+		<script src="scripts/createUtils.js" type="text/javascript"></script>
+		<script src="scripts/gestObjets.js" type="text/javascript"></script>
+    </body>
+</html>
