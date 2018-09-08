@@ -31,5 +31,9 @@ function getTVA(ttc, ht) {
 let prixHT = 23;
 let tva = 10;
 
-document.write(getTTC(prixHT, tva));
+document.write("Prix TTC: " + getTTC(prixHT, tva));
+document.write("<BR/>");
+document.write("Prix HT :" + getHT(25.3, tva));
+document.write("<BR/>");
+document.write("TVA     : " + getTVA(25.3, prixHT));
 
