@@ -17,5 +17,5 @@ myForm.addEventListener('submit', function(e) {
 }, true);
 
 myForm.addEventListener('reset', function(e) {
-	alert("Une plan&egrave;te du syst&egrave;me solaire, c'est compliqu&eacute; ?");
+	alert("Une planète du système solaire, c'est compliqué ?");
 }, true);
