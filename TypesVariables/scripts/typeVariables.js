@@ -66,5 +66,14 @@ document.write("<br>");
 document.write("Type: " + typeof(parseInt(decStringAge2)));
 document.write("<br>");
 
+// Opérateur unaire +
+document.write("Opérateur +: ");
+document.write("<br>");
+document.write(+ "123.45");
+document.write("<br>");
+document.write(typeof(+ "123.45"));
+document.write("<br>");
+document.write(+ "123.45a");
+
 
 
